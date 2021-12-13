@@ -18,7 +18,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Vale Linter
-        uses: benoitf/vale-action@pull-request-target
+        uses: benoitf/vale-action@vale-action-39
         with:
           files: __onlyModified
           styles: | 
